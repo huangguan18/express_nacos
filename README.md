@@ -6,7 +6,7 @@
 ## 快速开始
 > 国内使用请先安装 cnpm
 > 进入到目录express_nacos_micro
-> 输入 cnpm install  例如: express_nacos_micro$cnpm install
+> 输入 cnpm install  例如: express_nacos_micro$cnpm install,等待node_modules安装完毕后，
 > 输入 npm run dev  即可启动项目（单点项目）
 
 ## 使用微服务体系
