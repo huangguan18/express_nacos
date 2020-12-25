@@ -1,0 +1,33 @@
+{
+  "name": "express_nacos_gateway",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node ./src/start.js",
+    "build": "webpack --config webpack.config.js --mode production"
+  },
+  "author": "",
+  "license": "Apache",
+  "dependencies": {
+    "express":"^4.17.1",
+    "winston":"^3.3.3",
+    "express-winston":"^4.0.5",
+    "moment":"^2.29.1",
+    "express-formidable":"^1.2.0",
+    "form-data":"^3.0.0",
+    "axios":"^0.21.0",
+    "urlencode":"^1.1.0",
+    "nacos":"^2.0.0"
+  },
+  "devDependencies": {
+    "webpack-obfuscator": "^3.1.0",
+    "babel-register":"^6.26.0",
+    "babel-preset-env":"^1.7.0",
+    "babel-polyfill":"^6.26.0"
+  },
+  "engines": {
+    "node": ">= 10.0.0"
+  }
+}
